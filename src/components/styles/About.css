@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.about--desc {
+  width: 30%;
+  line-height: 1.6rem;
+}

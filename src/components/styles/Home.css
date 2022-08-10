@@ -1,0 +1,28 @@
+.home--hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.home--hero > .hero--hero__left > h2 {
+  font-size: 3rem;
+  width: 25ch;
+}
+
+.home--hero--button {
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home--hero > .hero--hero__right > img {
+  height: 800px;
+  border-radius: 10px;
+}

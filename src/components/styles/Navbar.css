@@ -1,0 +1,53 @@
+.navbar {
+  width: 97%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+}
+
+.navbar > .navbar__title {
+  padding-left: 2rem;
+  font-size: 1.6rem;
+}
+
+.navbar > .navbar__links {
+  width: 30%;
+  margin-left: 5rem;
+}
+
+.navbar > .navbar__links > nav {
+  display: flex;
+}
+
+.navbar > .navbar__links > nav > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0 50px 0 50px;
+}
+
+.navbar > .navbar__links > nav > button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.navbar__links--notif {
+  position: relative;
+  left: 0px;
+  top: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 0, 0);
+  border-radius: 50%;
+  font-size: 0.9rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #fff;
+  font-weight: 700;
+}

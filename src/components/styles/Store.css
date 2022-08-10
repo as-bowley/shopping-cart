@@ -1,0 +1,29 @@
+.store {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.store--item {
+  display: flex;
+  flex-direction: column;
+}
+
+.store--title {
+  text-align: center;
+}
+
+.store--item > img {
+  height: 400px;
+}
+
+.store--item--add-button {
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
